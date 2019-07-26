@@ -1,0 +1,299 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+body.portfolio {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic3.jpg);
+    
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+video {
+    width: 50%;
+    position: relative;
+}
+.row  {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    
+}
+.main-nav li
+{
+    display: inline-block;
+    position: relative;
+
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 15px;
+}
+.main-nav li ul
+{
+    display: none;
+    position: absolute;
+    background-color: none;
+    border-radius: 0px 0px 4px 4px;
+    
+}
+.main-nav li:hover ul
+{
+    display: block;
+    
+}
+.main-nav li ul li a
+{
+    padding: 3px 20px;
+    border-radius: 4px;
+}
+.main-nav li ul li a:hover
+{
+    background-color: darkorange;
+}
+
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: 'Righteous', cursive;
+    
+}
+
+h1
+{
+    color: skyblue;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    
+}
+
+h2
+{
+    color: darkorange;
+    text-transform: uppercase;
+    font-size: 20pxpx;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    background-color: darkslateblue;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+}
+
+.btn-two
+{
+    background-color: darkslateblue;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+}
+
+.btn-one:hover {
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+    
+        
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+}
+
+.contact-bg {
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic3.jpg);
+}
+
+.about-me {
+    width: 100%;
+}
+
+.about-me h3 {
+    color: darkcyan;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-me h4 {
+    color: skyblue;
+    
+    left: 50%;
+    bottom: 0px;
+    padding: 5%;
+}
+
+.about-me .col-left, .about-me .col-right {
+    
+    width: 50%;
+    float: left;
+}
+
+.about-me .col-left {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 400px;
+    height: 400px;
+}
+
+.about-me a {
+    background-color:skyblue;
+    padding: 1px 1px;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+
+.about-me p {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.about-me .col-left img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.my-skills {
+    
+    background-color:antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
